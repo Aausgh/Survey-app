@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #ececec;
+}
+
+.rating-btn.selected {
+  background-color: orange; /* You can replace 'orange' with your desired background color */
+  color: white; /* Optional: Change text color for better visibility */
+}
